@@ -11,5 +11,3 @@ def hello():
     b = a.fetchone()
     f = ''.join(map(str,b))
     return f
-
-app.run()
